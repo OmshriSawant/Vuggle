@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+    
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color:black;
+    color:white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('cover1.jpg');
+   background-repeat:repeat;
+   background-size: 1000px;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.content{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 34px;
+}
+
+.content img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.btn{
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+    border-radius: 35px;
+}
+.btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn a:visited{
+    background-color: #fff;
+    color: black;
+}
+.btn a:hover{
+    color: #000;   
+}
+.btn a:link{
+    text-decoration: none;
+}
+.content{
+    text-align: center;
+    margin-top: 12%;
+}
+.content hl{
+    font-size: 80px;
+    color: white;
+}
